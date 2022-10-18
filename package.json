@@ -1,0 +1,30 @@
+{
+  "name": "webinar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexx0n/webinar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexx0n/webinar/issues"
+  },
+  "homepage": "https://github.com/rexx0n/webinar#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.1.0"
+  }
+}

@@ -1,0 +1,85 @@
+.gift {
+  display: flex;
+  margin-top: 47px;
+  max-width: 749px;
+  justify-content: space-between;
+  &__checkbox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      font-family: "Calibri";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #373563;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 278px;
+    width: 100%;
+    button {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      border: none;
+      background: #ff5f68;
+      border-radius: 42px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      color: #ffffff;
+      transition: 200ms;
+      margin-top: 20px;
+      &:hover {
+        background: #c75158;
+      }
+    }
+    input {
+      padding: 12px 0 12px 20px;
+      max-width: 278px;
+      width: 100%;
+      border-radius: 42px;
+      border: none;
+      font-family: "Calibri";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #a1abc7;
+    }
+    .gift__checkbox {
+      input {
+        max-width: 20px;
+      }
+    }
+  }
+  .gift__info {
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: #d74e50;
+      margin-bottom: 13px;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #373563;
+      }
+    }
+  }
+}

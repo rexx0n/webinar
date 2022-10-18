@@ -1,0 +1,12 @@
+.tick {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  hr {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #9798e2;
+    margin-top: -23px;
+  }
+}

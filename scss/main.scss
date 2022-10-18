@@ -1,0 +1,31 @@
+.main {
+  margin-top: -97px;
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #302e5b;
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 82px;
+    text-transform: uppercase;
+    color: #373563;
+    max-width: 643px;
+    margin-top: 15px;
+  }
+  &__salary {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3d3a78;
+    span {
+      font-size: 29px;
+      color: #EC6568;
+      line-height:35.1px;
+      font-weight: 700;
+    }
+  }
+  
+}

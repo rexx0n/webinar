@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  
+  &__data {
+        background: #FE9395;
+        padding: 34px 26px 37px 28px;
+        border-radius: 0px 0px 24px 24px;
+    }
+    &__child {
+        display: flex;
+    }
+    &__time {
+        display: flex;
+        margin-top: 64px;
+        margin-right: 32px;
+        p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #373563;
+    margin-left: 6px;
+  }
+    }
+}
