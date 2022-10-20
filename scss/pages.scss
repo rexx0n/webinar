@@ -1,11 +1,17 @@
 .page-1 {
   background: url(/img/page-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin-top: -1px;
   .tick {
     margin-top: 49px;
     hr {
       display: none;
     }
+  }
+  .gift {
+    margin-top: 47px;
   }
 }
 .page-2 {
@@ -36,5 +42,42 @@
   }
 }
 .page-3 {
-    background: url(/img/page-3.png);
+  background: url(/img/page-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 114px;
+  .title {
+    flex-direction: column;
+    p {
+      margin-bottom: 21px;
+    }
+  }
+  .gift {
+    justify-content: center;
+    max-width: none;
+    gap: 50px;
+    margin-top: 63px;
+  }
+  .tick {
+    margin-top: 88px;
+  }
+}
+.page-4 {
+  margin-top: 107px;
+  .tick {
+    margin-top: 74px;
+  }
+}
+.page-5 {
+  padding-top: 107px;
+  background: url(/img/page-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .title {
+    h2 {
+      color: #373563;
+    }
+  }
 }
