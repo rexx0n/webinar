@@ -1,8 +1,6 @@
 .page-1 {
   background: url(/img/page-1.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   margin-top: -1px;
   .tick {
     margin-top: 49px;
@@ -43,9 +41,7 @@
 }
 .page-3 {
   background: url(/img/page-3.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-position-x: right;
   padding-top: 114px;
   .title {
     flex-direction: column;
@@ -72,12 +68,44 @@
 .page-5 {
   padding-top: 107px;
   background: url(/img/page-5.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   .title {
     h2 {
       color: #373563;
     }
+  }
+  .tick {
+    margin-top: 74px;
+    padding-bottom: 4px;
+  }
+}
+.page-6 {
+  background: url(/img/page-6.png);
+  padding-top: 114px;
+  .tick {
+    margin-top: 93px;
+  }
+}
+.page-7 {
+  background: url(/img/page-7.png);
+  background-position-x: -72px;
+  padding-top: 108px;
+  .title {
+    flex-direction: column;
+    text-align: center;
+    span {
+      max-width: 1000px;
+    }
+    h2 {
+      margin-bottom: 39px;
+    }
+  }
+  .gift {
+    margin-top: 104px;
+    max-width: none;
+    justify-content: center;
+    gap: 40px;
+  }
+  .tick {
+    margin-top: 80px;
   }
 }
