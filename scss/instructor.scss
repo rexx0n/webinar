@@ -1,0 +1,29 @@
+.instructor {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+  &__man {
+    margin-top: -205px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .instructor__star {
+    align-items: center;
+  }
+    div {
+        display: flex;
+        align-items: flex-start;
+        gap: 18px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      color: #373563;
+      max-width: 489px;
+    }
+  }
+  
+}
