@@ -6,6 +6,10 @@
         background: #FE9395;
         padding: 34px 26px 37px 28px;
         border-radius: 0px 0px 24px 24px;
+        &--phone {
+          display: none;
+          padding: 16px 12px 17px 13px;
+        }
     }
     &__child {
         display: flex;
@@ -22,4 +26,17 @@
     margin-left: 6px;
   }
     }
+}
+@media screen and (max-width: 1054px) {
+  .header {
+    &__data {
+      display: none;
+      &--phone {
+        display: inline;
+        background: #FE9395;
+        border-radius: 0px 0px 24px 24px;
+        margin-right: 15px;
+      }
+    }
+  }
 }

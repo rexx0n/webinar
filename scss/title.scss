@@ -25,3 +25,11 @@
     color: #373563;
   }
 }
+@media screen and (max-width: 1054px) {
+  .title {
+    h2 {
+      font-size: 20px;
+      margin-left: 7px;
+    }
+  }
+}

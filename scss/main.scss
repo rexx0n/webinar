@@ -22,10 +22,26 @@
     color: #3d3a78;
     span {
       font-size: 29px;
-      color: #EC6568;
-      line-height:35.1px;
+      color: #ec6568;
+      line-height: 35.1px;
       font-weight: 700;
     }
   }
-  
+}
+@media screen and (max-width: 1054px) {
+  .main {
+    margin-top: 24px;
+    &__salary {
+      p {
+        margin-top: 20px;
+      }
+    }
+    p {
+      font-size: 19px;
+    }
+    h1 {
+      font-size: 32px;
+      line-height: 39px;
+    }
+  }
 }

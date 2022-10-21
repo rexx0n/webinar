@@ -1,4 +1,9 @@
 .container {
   max-width: 1172px;
-  margin: 0 auto;  
+  margin: 0 auto;
+}
+@media screen and (max-width: 1054px) {
+  .container {
+    max-width: 320px;
+  }
 }

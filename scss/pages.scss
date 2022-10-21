@@ -135,3 +135,26 @@
     margin-top: -28px;
   }
 }
+@media screen and (max-width: 1054px) {
+  .page-1 {
+    background: url(/img/page-1-mobile.png);
+    background-position-x:center;
+    .tick {
+      margin-top: 388px;
+      hr {
+        display: inline;
+      }
+    }
+  }
+  .page-2 {
+    background-color: #EDEDED;
+    padding-top: 91px;
+    margin-top: 0;
+    .container {
+      max-width: 660px;
+    }
+    .title {
+      margin-left: 21px;
+    }
+  }
+}
