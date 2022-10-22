@@ -48,3 +48,21 @@
     }
   }
 }
+@media screen and (max-width: 1054px) {
+  .footer {
+    background: url(/img/footer-mobile.png);
+    padding-bottom: 446px;
+    &__info {
+      text-align: center;
+      padding-top: 63px;
+    }
+    &__phone {
+      span {
+        margin-bottom: 6px;
+      }
+    }
+    &__icons {
+      justify-content: center;
+    }
+  }
+}

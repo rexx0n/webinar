@@ -41,3 +41,13 @@
     }
   }
 }
+@media screen and (max-width: 1054px) {
+  .form {
+    max-width: none;
+    form {
+      input {
+        max-width: none;
+      }
+    }
+  }
+}

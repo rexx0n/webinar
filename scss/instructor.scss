@@ -25,5 +25,14 @@
       max-width: 489px;
     }
   }
-  
+}
+@media screen and (max-width: 1054px) {
+  .instructor {
+    flex-direction: column;
+    margin-top: 19px;
+    gap: 20px;
+    &__man {
+      margin-top: 0;
+    }
+  }
 }
