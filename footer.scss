@@ -1,5 +1,5 @@
 .footer {
-  background: url(/img/footer.png);
+  background: url(img/footer.png);
   background-position: center;
   padding-bottom: 75px;
   &__info {
@@ -50,7 +50,7 @@
 }
 @media screen and (max-width: 1054px) {
   .footer {
-    background: url(/img/footer-mobile.png);
+    background: url(img/footer-mobile.png);
     padding-bottom: 446px;
     &__info {
       text-align: center;
