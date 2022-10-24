@@ -1,6 +1,6 @@
 @import "container";
 @import "header";
-@import "/pages.scss";
+@import "pages.scss";
 @import "main";
 @import "gift";
 @import "tick";
@@ -10,7 +10,7 @@
 @import "who-fits-in";
 @import "skils";
 @import "instructor";
-@import "/footer.scss";
+@import "footer.scss";
 * {
   margin: 0;
   padding: 0;
