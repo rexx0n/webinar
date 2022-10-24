@@ -1,5 +1,5 @@
 .page-1 {
-  background: url(../img/page-1.png);
+  background: url(img/page-1.png);
   background-repeat: no-repeat;
   margin-top: -1px;
   .tick {
@@ -40,7 +40,7 @@
   }
 }
 .page-3 {
-  background: url(../img/page-3.png);
+  background: url(img/page-3.png);
   background-position-x: right;
   padding-top: 114px;
   .title {
@@ -67,7 +67,7 @@
 }
 .page-5 {
   padding-top: 107px;
-  background: url(../img/page-5.png);
+  background: url(img/page-5.png);
   .title {
     h2 {
       color: #373563;
@@ -79,14 +79,14 @@
   }
 }
 .page-6 {
-  background: url(../img/page-6.png);
+  background: url(img/page-6.png);
   padding-top: 114px;
   .tick {
     margin-top: 93px;
   }
 }
 .page-7 {
-  background: url(../img/page-7.png);
+  background: url(img/page-7.png);
   background-position-x: -72px;
   padding-top: 108px;
   .title {
@@ -111,7 +111,7 @@
 }
 .page-8 {
   padding-top: 116px;
-  background: url(../img/page-8.png);
+  background: url(img/page-8.png);
   .title {
     flex-direction: column;
     align-items: flex-start;
@@ -137,7 +137,7 @@
 }
 @media screen and (max-width: 1054px) {
   .page-1 {
-    background: url(../img/page-1-mobile.png);
+    background: url(img/page-1-mobile.png);
     background-position-x: center;
     .tick {
       margin-top: 388px;
@@ -162,7 +162,7 @@
     }
   }
   .page-3 {
-    background: url(../img/page-3-mobile.png);
+    background: url(img/page-3-mobile.png);
     background-position-x: center;
     padding-top: 86px;
     .gift {
@@ -191,7 +191,7 @@
   }
   .page-5 {
     padding-top: 72px;
-    background: url(../img/page-5-mobile.png);
+    background: url(img/page-5-mobile.png);
     .container {
       max-width: 1037px;
     }
@@ -219,7 +219,7 @@
     }
   }
   .page-7 {
-    background: url(../img/page-7-mobile.png);
+    background: url(img/page-7-mobile.png);
     padding-top: 87px;
     .gift {
       margin-top: 53px;
