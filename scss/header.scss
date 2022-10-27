@@ -6,7 +6,7 @@
         background: #FE9395;
         padding: 34px 26px 37px 28px;
         border-radius: 0px 0px 24px 24px;
-        &--phone {
+        &-phone {
           display: none;
           padding: 16px 12px 17px 13px;
         }
@@ -31,7 +31,7 @@
   .header {
     &__data {
       display: none;
-      &--phone {
+      &-phone {
         display: inline;
         background: #FE9395;
         border-radius: 0px 0px 24px 24px;

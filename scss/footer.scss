@@ -2,6 +2,10 @@
   background: url(../img/footer.png);
   background-position: center;
   padding-bottom: 75px;
+  &__phone {
+    display: flex;
+    flex-direction: column;
+  }
   &__info {
     text-align: right;
     padding-top: 37px;
@@ -14,18 +18,19 @@
       text-transform: uppercase;
     }
     span {
-      font-family: "Roboto";
+      font-family: "Roboto", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
       line-height: 16px;
       color: #373563;
     }
-    h1 {
+    a {
       font-weight: 600;
       font-size: 36px;
       line-height: 44px;
       text-transform: uppercase;
+      text-decoration: none;
       color: #373563;
     }
   }
@@ -37,13 +42,14 @@
   }
   &__email {
     margin-top: 62px;
-    span {
+    a {
       font-family: "Roboto";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
       color: #373563;
+      text-decoration: none;
       margin-left: 13px;
     }
   }
